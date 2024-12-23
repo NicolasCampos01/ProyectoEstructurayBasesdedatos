@@ -39,3 +39,13 @@ This project focuses on developing a flexible and robust system for managing and
    ```bash
    git clone https://github.com/<your-username>/solar-image-analysis.git
    cd solar-image-analysis
+
+   
+### **Key Notes**
+- Replace `<your-username>` in the GitHub URL with your GitHub username.
+- Add appropriate images to the `images/` folder and update their paths in the README.
+- Ensure the `requirements.txt` file includes all necessary Python libraries.
+
+
+
+
