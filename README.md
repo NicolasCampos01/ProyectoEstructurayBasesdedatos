@@ -1,49 +1,43 @@
-# Solar Image Analysis Project
+# Proyecto de Análisis de Imágenes Solares
 
-## **Overview**
-This project focuses on developing a flexible and robust system for managing and analyzing solar observation data using **MongoDB** and **FITS files**. The primary objective is to enable efficient storage, querying, and visualization of structured and unstructured astronomical data. By integrating tools like **Astropy**, the system provides advanced capabilities for processing and analyzing solar images and metadata.
-
----
-
-## **Features**
-- **Data Storage**: 
-  - Uses **MongoDB** with GridFS to store large FITS files and their metadata.
-- **Data Querying**:
-  - Supports advanced queries to filter images by wavelength, date range, and other metadata.
-  - Implements aggregation pipelines for statistical analysis.
-- **Data Analysis**:
-  - Extracts and analyzes key parameters such as CCD temperature, solar radius, and wavelengths.
-  - Provides functionality to filter and visualize these parameters.
-- **Visualization**:
-  - Generates dynamic plots for metadata parameters.
-  - Displays solar images directly from FITS files.
+## **Resumen**
+Este proyecto se centra en el desarrollo de un sistema flexible y robusto para la gestión y análisis de datos de observación solar utilizando **MongoDB** y archivos **FITS**. El objetivo principal es habilitar el almacenamiento, consulta y visualización eficiente de datos astronómicos estructurados y no estructurados. Con la integración de herramientas como **Astropy**, el sistema ofrece capacidades avanzadas para procesar y analizar imágenes solares y sus metadatos.
 
 ---
 
-## **Technologies Used**
+## **Características**
+- **Almacenamiento de Datos**:
+  - Utiliza **MongoDB** con GridFS para almacenar archivos FITS grandes y sus metadatos.
+- **Consultas de Datos**:
+  - Admite consultas avanzadas para filtrar imágenes por longitud de onda, rango de fechas y otros metadatos.
+  - Implementa pipelines de agregación para análisis estadísticos.
+- **Análisis de Datos**:
+  - Extrae y analiza parámetros clave como temperatura del CCD, radio solar y longitudes de onda.
+  - Proporciona funcionalidades para filtrar y visualizar estos parámetros.
+- **Visualización**:
+  - Genera gráficos dinámicos para parámetros de metadatos.
+  - Muestra imágenes solares directamente desde archivos FITS.
+
+---
+
+## **Tecnologías Utilizadas**
 - **MongoDB**:
-  - Database for managing and querying metadata.
-  - GridFS for storing large FITS files.
+  - Base de datos para gestionar y consultar metadatos.
+  - GridFS para almacenar archivos FITS grandes.
 - **Astropy**:
-  - For handling and processing FITS files.
+  - Para manejar y procesar archivos FITS.
 - **Matplotlib**:
-  - For generating plots and visualizations.
+  - Para generar gráficos y visualizaciones.
 - **Python**:
-  - Core language for data processing and system implementation.
+  - Lenguaje principal para el procesamiento e implementación del sistema.
 
 ---
 
-## **Installation**
-1. Clone the repository:
+## **Instalación**
+1. Clona el repositorio:
    ```bash
-   git clone https://github.com/<your-username>/solar-image-analysis.git
+   git clone https://github.com/<tu-usuario>/solar-image-analysis.git
    cd solar-image-analysis
-
-   
-### **Key Notes**
-- Replace `<your-username>` in the GitHub URL with your GitHub username.
-- Add appropriate images to the `images/` folder and update their paths in the README.
-- Ensure the `requirements.txt` file includes all necessary Python libraries.
 
 
 
