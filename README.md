@@ -34,7 +34,7 @@ Este proyecto se centra en el desarrollo de un sistema flexible y robusto para l
 ---
 
 ## **Instalación**
-1. Clona el repositorio:
+Clonar el repositorio:
    ```bash
    git clone https://github.com/<tu-usuario>/solar-image-analysis.git
    cd solar-image-analysis
