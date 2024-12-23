@@ -1,4 +1,3 @@
-# ProyectoEstructurayBasesdedatos
 # Solar Image Analysis Project
 
 ## **Overview**
