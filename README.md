@@ -1,6 +1,6 @@
 # Proyecto de Análisis de Imágenes Solares
 
-## **Resumen**
+## **Resumen:**
 Este proyecto se centra en el desarrollo de un sistema flexible y robusto para la gestión y análisis de datos de observación solar utilizando **MongoDB** y archivos **FITS**. El objetivo principal es habilitar el almacenamiento, consulta y visualización eficiente de datos astronómicos estructurados y no estructurados. Con la integración de herramientas como **Astropy**, el sistema ofrece capacidades avanzadas para procesar y analizar imágenes solares y sus metadatos.
 
 ---
